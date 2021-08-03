@@ -4,6 +4,9 @@ import { Persistency } from './services/persistency';
 import { Product } from './entities/product';
 import { ShoppingCart } from './entities/shopping-cart';
 
+// SRP = Single Responsability Principle
+// cada classe/objeto so deve fazer as tarefa relacionadas ao seu dominio
+
 const shoppingCart = new ShoppingCart();
 const messaging = new Message();
 const persistency = new Persistency();
